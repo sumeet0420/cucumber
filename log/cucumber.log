@@ -103,3 +103,51 @@
 17:18:41.426 [main] INFO  Logger - User navigates to the URL
 17:27:28.860 [main] INFO  Logger - User is on homepage
 17:27:36.612 [main] INFO  Logger - User navigates to the URL
+19:42:55.792 [main] INFO  Logger - User is on homepage
+19:43:13.551 [main] INFO  Logger - User navigates to the URL
+19:43:22.890 [main] INFO  Logger - Product Camera, photo is selected
+19:45:40.920 [main] INFO  Logger - User is on homepage
+19:45:49.183 [main] INFO  Logger - User navigates to the URL
+19:45:52.011 [main] INFO  Logger - Product Camera, photo is selected
+19:46:13.640 [main] INFO  Logger - User is on homepage
+19:46:36.193 [main] INFO  Logger - User navigates to the URL
+19:46:38.535 [main] INFO  Logger - Product BOOKS is selected
+19:58:00.750 [main] INFO  Logger - User is on homepage
+19:58:19.131 [main] INFO  Logger - User navigates to the URL
+19:58:21.668 [main] INFO  Logger - Product Camera, photo is selected
+19:58:32.162 [main] INFO  Logger - User is on homepage
+19:58:48.963 [main] INFO  Logger - User navigates to the URL
+19:58:54.502 [main] INFO  Logger - Product BOOKS is selected
+19:59:10.216 [main] INFO  Logger - User is on homepage
+19:59:24.942 [main] INFO  Logger - User navigates to the URL
+19:59:27.950 [main] INFO  Logger - Product Desktop is selected
+20:00:02.906 [main] INFO  Logger - User is on homepage
+20:00:20.632 [main] INFO  Logger - User navigates to the URL
+20:00:24.482 [main] INFO  Logger - Product Notebooks is selected
+20:06:03.419 [main] INFO  Logger - User is on homepage
+20:06:10.681 [main] INFO  Logger - User navigates to the URL
+20:06:12.650 [main] INFO  Logger - Product Camera, photo is selected
+20:06:16.437 [main] INFO  Logger - User is on homepage
+20:06:21.408 [main] INFO  Logger - User navigates to the URL
+20:06:22.666 [main] INFO  Logger - Product Cell phones is selected
+20:06:26.380 [main] INFO  Logger - User is on homepage
+20:06:30.264 [main] INFO  Logger - User navigates to the URL
+20:06:31.886 [main] INFO  Logger - Product BOOKS is selected
+20:06:35.449 [main] INFO  Logger - User is on homepage
+20:06:43.556 [main] INFO  Logger - User navigates to the URL
+20:06:45.871 [main] INFO  Logger - Product Desktop is selected
+20:06:49.839 [main] INFO  Logger - User is on homepage
+20:06:55.563 [main] INFO  Logger - User navigates to the URL
+20:06:59.590 [main] INFO  Logger - Product Notebooks is selected
+20:07:03.086 [main] INFO  Logger - User is on homepage
+20:07:06.340 [main] INFO  Logger - User navigates to the URL
+20:07:07.910 [main] INFO  Logger - Product Accessories is selected
+20:07:11.351 [main] INFO  Logger - User is on homepage
+20:07:14.958 [main] INFO  Logger - User navigates to the URL
+20:07:18.810 [main] INFO  Logger - User is on homepage
+20:07:28.263 [main] INFO  Logger - User navigates to the URL
+20:07:29.436 [main] INFO  Logger - Product JEWELRY is selected
+20:07:39.959 [main] INFO  Logger - User is on homepage
+20:08:02.178 [main] INFO  Logger - User navigates to the URL
+20:08:06.179 [main] INFO  Logger - User is on homepage
+20:08:12.033 [main] INFO  Logger - User navigates to the URL

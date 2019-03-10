@@ -4,9 +4,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "./src/test/resources/features/RegisterMultipleUsers.feature"
-            ,dryRun = true
+        features = "./src/test/resources/features/ProductCategories.feature"
+         //   ,dryRun = true
 )
-public class CucumberRunnner {
+public class CucumberRunner {
 
 }

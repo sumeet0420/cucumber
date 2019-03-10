@@ -1,5 +1,5 @@
 #Author: Sumeet Agrawal
-Feature: To Register Multiple Users Simultaneously
+Feature: To Register Multiple Users Simultaneously to support DDT.
 
   Background:
     Given User opens the browser
@@ -12,4 +12,6 @@ Feature: To Register Multiple Users Simultaneously
       | Gender | First Name | Last Name | Email      | Password | Repassword |
       | MALE   | ABCD       | LAST      | abc@ab.com | hello1   | hello1     |
 
+    Then verify if the user is successfully registered
+    And closes the browser
 

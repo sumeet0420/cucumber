@@ -1,6 +1,5 @@
 package com.triscent.pages;
 
-//import com.triscent.exceptions.LoginError;
 import com.triscent.support.Categories;
 import com.triscent.support.ProductType;
 import org.openqa.selenium.By;
@@ -8,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+
 import static com.triscent.utilities.LogUtility.log;
 
 public class WebShopHome {
@@ -21,13 +21,20 @@ public class WebShopHome {
     Locating all the elements required for Home Page
     */
 
-    private static @FindBy(className = "ico-login") WebElement login;
-    private static @FindBy(linkText = "Register") WebElement register;
-    private @FindBy(linkText = "Appareals") WebElement apparels;
-    private static @FindBy(linkText = "Apparel & Shoes") WebElement books;
-    private static @FindBy(linkText = "Apparel & Shoes") WebElement computers;
-    private static @FindBy(linkText = "ELECTRONICS") WebElement electronics;
-    private static @FindBy(linkText = "Log out") WebElement logout;
+    private static @FindBy(className = "ico-login")
+    WebElement login;
+    private static @FindBy(linkText = "Register")
+    WebElement register;
+    private @FindBy(linkText = "Appareals")
+    WebElement apparels;
+    private static @FindBy(linkText = "Apparel & Shoes")
+    WebElement books;
+    private static @FindBy(linkText = "Apparel & Shoes")
+    WebElement computers;
+    private static @FindBy(linkText = "ELECTRONICS")
+    WebElement electronics;
+    private static @FindBy(linkText = "Log out")
+    WebElement logout;
     private static boolean isUserLoggedIn;
 
     public static boolean verifyUserLogin() {
@@ -44,6 +51,51 @@ public class WebShopHome {
 
     public static boolean verifyTitle() {
         return TITLE.equals(driver.getTitle());
+    }
+
+    /*
+     *@Note: This is a helper class provided to select a Product based on String.
+     *Whenever possible, kindly use by passing Category types.
+     */
+    public static void selectProductType(String productCategory) {
+        switch (productCategory) {
+            case "APPARELS":
+                selectProductType(ProductType.APPARELS);
+                break;
+            case "BOOKS":
+                selectProductType(ProductType.BOOKS);
+                break;
+            case "DIGITALDOWNLOADS":
+                selectProductType(ProductType.DIGITAL_DOWNLOADS);
+                break;
+            case "GIFTCARDS":
+                selectProductType(ProductType.GIFT_CARDS);
+                break;
+            case "JEWELRY":
+                selectProductType(ProductType.JEWELRY);
+                break;
+            case "CAMERA":
+                selectProductType(ProductType.ELECTONICS.CAMERA);
+                break;
+            case "CELLPHONES":
+                selectProductType(ProductType.ELECTONICS.CELLPHONES);
+                break;
+            case "ACCESSORIES":
+                selectProductType(ProductType.COMPUTERS.ACCESSORIES);
+                break;
+            case "NOTEBOOKS":
+                selectProductType(ProductType.COMPUTERS.NOTEBOOKS);
+                break;
+            case "DESKTOPS":
+                selectProductType(ProductType.COMPUTERS.DESKTOPS);
+                break;
+            default:
+                try {
+                    throw new Exception("Invalid Product Selections.");
+                } catch (Exception e) {
+                    e.getMessage();
+                }
+        }
     }
 
     public static void selectProductType(Categories categories) {
@@ -64,19 +116,19 @@ public class WebShopHome {
             driver.findElement(By.linkText(ProductType.JEWELRY.category)).click();
         } else if (categories.getCategory().equals(ProductType.COMPUTERS.ACCESSORIES.getCategory())) {
             actions.moveToElement(driver.findElement(By.linkText("COMPUTERS")))
-                      .build().perform();
+                    .build().perform();
             actions.moveToElement(driver.findElement(By.linkText("Accessories"))).click()
-                      .build().perform();
+                    .build().perform();
         } else if (categories.getCategory().equals(ProductType.COMPUTERS.DESKTOPS.getCategory())) {
             actions.moveToElement(driver.findElement(By.linkText("COMPUTERS")))
-                      .build().perform();
+                    .build().perform();
             actions.moveToElement(driver.findElement(By.linkText("Desktops"))).click()
-                      .build().perform();
+                    .build().perform();
         } else if (categories.getCategory().equals(ProductType.COMPUTERS.NOTEBOOKS.getCategory())) {
             actions.moveToElement(driver.findElement(By.linkText("COMPUTERS")))
-                      .build().perform();
+                    .build().perform();
             actions.moveToElement(driver.findElement(By.linkText("Notebooks"))).click()
-                      .build().perform();
+                    .build().perform();
         } else if (categories.getCategory().equals(ProductType.ELECTONICS.CAMERA.getCategory())) {
             actions.moveToElement(driver.findElement(By.linkText("ELECTRONICS")))
                     .build().perform();
@@ -88,7 +140,7 @@ public class WebShopHome {
             actions.moveToElement(driver.findElement(By.linkText("Cell phones"))).click()
                     .build().perform();
         }
-        //log.info("Product "+categories.getCategory()+ " is selected");
+        log.info("Product " + categories.getCategory() + " is selected");
     }
 
     public static void clickLogin() {
@@ -96,9 +148,12 @@ public class WebShopHome {
             login.click();
             isUserLoggedIn = true;
         } else {
-          //  new LoginError("A user is already logged in.");
-            System.out.println("A user is already logged in");
-
+            try {
+                log.error("A user is already logged in");
+                throw new Exception("A user is already logged in.");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
     }
 }
