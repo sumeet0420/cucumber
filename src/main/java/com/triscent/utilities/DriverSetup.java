@@ -1,0 +1,68 @@
+package com.triscent.utilities;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import java.util.concurrent.TimeUnit;
+
+import static com.triscent.utilities.BrowserHelper.wakeUpAfter;
+
+public final class DriverSetup {
+
+    private static WebDriver driver;
+
+    //      Hiding the Constructor
+    private DriverSetup() {
+    }
+
+    //Method to create the common setting
+    private static void driverCommonSetting() {
+        //Ensure the driver is set by using any of open* method
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+    }
+
+    //Method to invoke Firefox Driver
+    public static WebDriver openFirefox() {
+        driver = new FirefoxDriver();
+        driverCommonSetting();
+        return driver;
+    }
+
+    //Method to invoke Chrome Driver
+    public static WebDriver openChrome() {
+        driver = new ChromeDriver();
+        driverCommonSetting();
+        driver.manage().window().maximize();
+        return driver;
+    }
+
+    public static boolean isElementPresent(By by) {
+        wakeUpAfter(1000);
+        try {
+            if(driver.findElements(by).size()>0)
+                return true;
+            else
+                return false;
+        } catch (org.openqa.selenium.NoSuchElementException e) {
+            return false;
+        }
+    }
+
+    public static boolean isElementPresent(WebElement element) {
+        return element == null ? true : false;
+    }
+
+    public static void closeBrowser() {
+        driver.close();
+    }
+
+    public static void quitBrowser() {
+        driver.quit();
+    }
+
+
+}

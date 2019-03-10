@@ -1,0 +1,105 @@
+13:24:40.163 [main] INFO  Logger - User is on homepage
+13:24:51.108 [main] INFO  Logger - User navigates to the URL
+13:24:57.539 [main] INFO  Logger - User clicks on login button
+13:25:00.657 [main] INFO  Logger - User abcdef@email.com tried to login.
+13:25:16.149 [main] INFO  Logger - User provides his correct credentials
+13:25:19.265 [main] INFO  Logger - User is able to successful log in the website
+13:34:24.278 [main] INFO  Logger - User navigates to the URL
+13:34:26.122 [main] INFO  Logger - User clicks on login button
+13:38:10.386 [main] INFO  Logger - User navigates to the URL
+13:38:16.562 [main] INFO  Logger - User clicks on login button
+13:41:57.857 [main] INFO  Logger - User is on homepage
+13:46:10.751 [main] INFO  Logger - User is on homepage
+13:47:16.017 [main] INFO  Logger - User is on homepage
+13:47:23.154 [main] INFO  Logger - User navigates to the URL
+13:47:25.045 [main] INFO  Logger - User clicks on login button
+13:50:00.882 [main] INFO  Logger - User is on homepage
+13:50:10.910 [main] INFO  Logger - User navigates to the URL
+13:50:14.088 [main] INFO  Logger - User clicks on login button
+13:50:39.522 [main] INFO  Logger - User is on homepage
+13:50:58.669 [main] INFO  Logger - User navigates to the URL
+13:50:59.857 [main] INFO  Logger - User clicks on login button
+13:55:11.989 [main] INFO  Logger - User is on homepage
+13:55:20.956 [main] INFO  Logger - User navigates to the URL
+13:55:22.422 [main] INFO  Logger - User clicks on login button
+13:55:30.116 [main] INFO  Logger - User is on homepage
+13:55:38.317 [main] INFO  Logger - User navigates to the URL
+13:55:41.372 [main] INFO  Logger - User clicks on login button
+14:02:43.942 [main] INFO  Logger - User is on homepage
+14:02:49.193 [main] INFO  Logger - User navigates to the URL
+14:02:52.202 [main] INFO  Logger - User clicks on login button
+14:02:55.584 [main] INFO  Logger - User abcdef@email.com tried to login.
+14:02:58.186 [main] INFO  Logger - User provides his correct credentials
+14:02:58.646 [main] INFO  Logger - User is able to successful log in the website
+14:03:04.987 [main] INFO  Logger - User is on homepage
+14:03:09.157 [main] INFO  Logger - User navigates to the URL
+14:03:10.836 [main] INFO  Logger - User clicks on login button
+14:03:37.466 [main] INFO  Logger - User is on homepage
+14:03:42.035 [main] INFO  Logger - User navigates to the URL
+14:03:43.497 [main] INFO  Logger - User clicks on login button
+14:03:43.747 [main] INFO  Logger - User abcdef@email.com tried to login.
+14:03:44.756 [main] INFO  Logger - User provides his correct credentials
+14:03:45.515 [main] INFO  Logger - User is able to successful log in the website
+14:03:53.086 [main] INFO  Logger - User is on homepage
+14:03:59.604 [main] INFO  Logger - User navigates to the URL
+14:04:00.931 [main] INFO  Logger - User clicks on login button
+14:06:33.198 [main] INFO  Logger - User is on homepage
+14:06:40.436 [main] INFO  Logger - User navigates to the URL
+14:06:42.131 [main] INFO  Logger - User clicks on login button
+14:06:42.342 [main] INFO  Logger - User abcdef@email.com tried to login.
+14:06:43.528 [main] INFO  Logger - User provides his correct credentials
+14:06:43.661 [main] INFO  Logger - User is able to successful log in the website
+14:06:49.710 [main] INFO  Logger - User is on homepage
+14:06:54.323 [main] INFO  Logger - User navigates to the URL
+14:06:55.627 [main] INFO  Logger - User clicks on login button
+14:06:57.728 [main] INFO  Logger - User abcdeds@email.com tried to login.
+14:06:58.735 [main] INFO  Logger - User provides his incorrect credentials
+14:07:17.399 [main] INFO  Logger - User is not able to login
+14:09:45.376 [main] INFO  Logger - User is on homepage
+14:09:48.300 [main] INFO  Logger - User navigates to the URL
+14:09:48.920 [main] INFO  Logger - User clicks on login button
+14:09:49.121 [main] INFO  Logger - User abcdef@email.com tried to login.
+14:09:50.109 [main] INFO  Logger - User provides his correct credentials
+14:09:50.225 [main] INFO  Logger - User is able to successful log in the website
+14:11:43.366 [main] INFO  Logger - User is on homepage
+14:11:45.398 [main] INFO  Logger - User navigates to the URL
+14:11:46.139 [main] INFO  Logger - User clicks on login button
+14:11:46.317 [main] INFO  Logger - User abcdef@email.com tried to login.
+14:11:48.414 [main] INFO  Logger - User provides his correct credentials
+14:11:48.538 [main] INFO  Logger - User is able to successful log in the website
+14:15:21.879 [main] INFO  Logger - User is on homepage
+14:15:24.972 [main] INFO  Logger - User navigates to the URL
+14:15:25.714 [main] INFO  Logger - User clicks on login button
+14:15:25.912 [main] INFO  Logger - User abcdef@email.com tried to login.
+14:15:27.183 [main] INFO  Logger - User provides his correct credentials
+14:15:27.321 [main] INFO  Logger - User is able to successful log in the website
+14:19:00.040 [main] INFO  Logger - User is on homepage
+14:19:03.132 [main] INFO  Logger - User navigates to the URL
+14:19:05.169 [main] INFO  Logger - User clicks on login button
+14:19:05.424 [main] INFO  Logger - User abcdef@email.com tried to login.
+14:19:06.596 [main] INFO  Logger - User provides his correct credentials
+14:19:07.729 [main] INFO  Logger - User is able to successful log in the website
+14:21:54.273 [main] INFO  Logger - User is on homepage
+14:22:08.691 [main] INFO  Logger - User navigates to the URL
+14:22:09.642 [main] INFO  Logger - User clicks on login button
+14:22:09.840 [main] INFO  Logger - User abcdef@email.com tried to login.
+14:22:11.702 [main] INFO  Logger - User provides his correct credentials
+14:22:12.812 [main] INFO  Logger - User is able to successful log in the website
+14:22:29.755 [main] ERROR Logger - Order not placed yet or not successful.
+15:13:53.406 [main] INFO  Logger - User is on homepage
+15:14:11.558 [main] INFO  Logger - User is on homepage
+15:14:18.865 [main] INFO  Logger - User navigates to the URL
+15:14:22.276 [main] INFO  Logger - User clicks on login button
+15:14:23.486 [main] INFO  Logger - User abcdef@email.com tried to login.
+15:14:26.178 [main] INFO  Logger - User provides his correct credentials
+15:14:27.442 [main] INFO  Logger - User is able to successful log in the website
+16:24:19.377 [main] INFO  Logger - User is on homepage
+16:24:31.327 [main] INFO  Logger - User navigates to the URL
+16:26:34.163 [main] INFO  Logger - User is on homepage
+16:26:41.047 [main] INFO  Logger - User navigates to the URL
+17:03:03.144 [main] INFO  Logger - User is on homepage
+17:04:31.340 [main] INFO  Logger - User navigates to the URL
+17:18:27.560 [main] INFO  Logger - User is on homepage
+17:18:41.426 [main] INFO  Logger - User navigates to the URL
+17:27:28.860 [main] INFO  Logger - User is on homepage
+17:27:36.612 [main] INFO  Logger - User navigates to the URL
